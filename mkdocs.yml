@@ -13,6 +13,8 @@ nav:
     - Linux:
         - P2P Network: 'p2p_network.md'
         - RAID Debian: 'raid.md'
+    - Raspberry Pi:
+        - enable ssh: 'raspberrypi_enable_ssh.md'
     - Latex:
         - Digital Signature: 'latex_signature.md'
     - Test:
