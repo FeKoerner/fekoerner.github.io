@@ -565,7 +565,7 @@
 <ul>
 <li>content of the page can be downloaded with <br />
 <code>wget www.cisco.com</code></li>
-<li>one line of the file looks like that<br />
+<li>one line of the file <code>index.html</code> looks like that<br />
 <code>&lt;li&gt;&lt;a,href="http://newsroom.cisco.com/"&gt;Newsroom&lt;/a&gt;&lt;/li&gt;</code></li>
 <li>we can use a one liner to solve the task    <ul>
 <li><code>grep</code> searches for given string  </li>
@@ -584,7 +584,21 @@
 </td></tr></table>
 
 <p>Ping Sweep</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="err">do stuff</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;Ping Sweep&quot;</span>
+
+<span class="k">for</span> ip in <span class="o">{</span><span class="m">0</span>..254<span class="o">}</span>
+<span class="k">do</span>
+        ping -c1 <span class="m">192</span>.168.178.<span class="nv">$ip</span><span class="p">|</span> grep <span class="s2">&quot;bytes from&quot;</span><span class="p">|</span>cut -d <span class="s2">&quot; &quot;</span> -f4<span class="p">|</span>cut -d <span class="s2">&quot;:&quot;</span> -f1 <span class="p">&amp;</span>
+<span class="k">done</span>
 </code></pre></div>
 </td></tr></table>
 

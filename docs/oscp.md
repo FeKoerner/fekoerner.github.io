@@ -7,7 +7,7 @@ The task is to get all urls on the page www.cisco.com
 
 * content of the page can be downloaded with   
   `wget www.cisco.com`
-* one line of the file looks like that  
+* one line of the file `index.html` looks like that  
   `<li><a,href="http://newsroom.cisco.com/">Newsroom</a></li>`
 * we can use a one liner to solve the task    
     * `grep` searches for given string  
