@@ -7,7 +7,7 @@ Read here for more [Extensions](https://squidfunk.github.io/mkdocs-material/exte
 * [ ] Rebuild Server
 * [ ] collect all photos and move them to dir `pictures` on the server
 * [ ] check entry `P2P Network` 
-* [ ] sell old CPU on Kleinanzeigen
+* [x] sell old CPU on Kleinanzeigen
 
 ## Commands
 
