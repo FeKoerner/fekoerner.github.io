@@ -13,6 +13,8 @@ nav:
     - Linux:
         - P2P Network: 'p2p_network.md'
         - RAID Debian: 'raid.md'
+    - Latex:
+        - Digital Signature: 'latex_signature.md'
     - Test:
         - JDownloader 2.0: 'jd.md'
 
