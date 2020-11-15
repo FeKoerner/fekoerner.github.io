@@ -20,4 +20,4 @@ iface <interface> inet static
 ```
 
 !!! tip
-    Change Jumbo Frame size for better performance. Not adviced if files of a small size are used.
+    Change Jumbo Frame size for better performance. Not adviced if files are of a small size are used.
