@@ -17,8 +17,7 @@ nav:
         - enable ssh: 'raspberrypi_enable_ssh.md'
     - Latex:
         - Digital Signature: 'latex_signature.md'
-    - Test:
-        - JDownloader 2.0: 'jd.md'
+    - Zoom: 'zoom.md'
 
 # Theme
 theme: 

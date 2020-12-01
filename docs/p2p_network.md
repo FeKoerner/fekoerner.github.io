@@ -7,7 +7,7 @@ Give your clients the following ip addresses:
 
 * Client 1: IP `10.0.0.1`
 * Client 2: IP `10.0.0.2`
-* Subnet Mask: 255.255.255.252 :arrow_right: Only to clients possible 
+* Subnet Mask: 255.255.255.252 :arrow_right: Only two clients possible 
     * [IP Calculator](http://jodies.de/ipcalc?host=10.1.6.0&mask1=30&mask2=)
 
 ## /etc/network/interfaces
@@ -20,4 +20,4 @@ iface <interface> inet static
 ```
 
 !!! tip
-    Change Jumbo Frame size for better performance. Not adviced if files are of a small size are used.
+    Change Jumbo Frame size for better performance. Not adviced if files of a small size are used.
