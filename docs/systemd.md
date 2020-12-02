@@ -56,8 +56,6 @@ Persistent=false
 WantedBy=timers.target
 ```
 
-`monitor.timer` activates `monitor.service`
-
 `/etc/systemd/system/monitor.service`
 ```
 [Unit]
@@ -66,10 +64,18 @@ Description=Run every Minute
 [Service]
 Type=oneshot
 ExecStart=/home/user/run.sh
+User=user
 
 [Install]
 WantedBy=multi-user.target
 ```
+
+!!! danger
+    If the **User Key** is not specified in the `[Service]` Section of the service.
+    The command specified at the Key **ExecStart** will be run as **root**. 
+
+The `monitor.timer` has to be **activated** and **enabled**.
+After that the `monitor.timer` activates `monitor.service`.
 
 With the command `systemctl list-timers` it can be checked if the timer is activated.
 
@@ -124,3 +130,7 @@ Wed..Sat,Tue 12-10-15 1:2:3 → Tue..Sat 2012-10-15 01:02:03
                    annually → *-01-01 00:00:00
                       *:2/3 → *-*-* *:02/3:00
 ```
+
+## Sources
+
+* [ArchWiki](https://wiki.archlinux.org/index.php/Systemd/Timers)
