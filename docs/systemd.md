@@ -3,6 +3,24 @@
 !!! Summary
     This article explains the use of systemd.
 
+!!! example
+    
+    Example shows interaction with `timer.service`
+
+    === "start service"
+        `systemctl start timer.service`
+
+    === "stop service"
+        `systemctl stop timer.service`
+    
+    === "enable service"
+        `systemctl enable timer.service`   
+        Service will now autostart on boot.
+
+    === "disable service"
+        `systemctl disable timer.service`
+
+
 ## systemd-timesyncd
 Systemd jobs can be triggert by time. To ensure that the system uses the correct time the service `systemd-timesyncd` can be used.
 Configuration is done in the file   
