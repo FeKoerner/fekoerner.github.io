@@ -14,10 +14,10 @@ Zoom biete Programme für die verschiedensten Geräte. Hier findest du eine Ausw
 
 ## Zoom ohne Webcam benutzen
 Wenn ihr keine Kamera an eurem Rechner habt ist das kein Problem.
-Ihr könnt euch mit dem Selben Zoom Meeting mit Handy und Computer gleichzeitig verbinden.
+Ihr könnt euch mit dem selben Zoom Meeting mit Handy und Computer gleichzeitig verbinden.
 
 ## An einem Zoom Meeting teilnehmen
-Um an einem Zoom Meeting teilzunehmen benötigt ihr keinen Account. Es reicht aus den
+Um an einem Zoom Meeting teilzunehmen benötigt ihr keinen Account. Es reicht aus
 
 * [Meeting ID](https://support.zoom.us/hc/de/articles/201362373-What-is-a-Meeting-ID-)
 * Passwort
