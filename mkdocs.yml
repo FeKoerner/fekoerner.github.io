@@ -26,8 +26,10 @@ theme:
         palette:
                 primary: 'blue'
                 accent: 'cyan'
-        logo: 'images/logo2.png'
+        logo: 'images/final_250.png'
         language: 'en'
+        favicon: 'images/final_favicon.png'
+        font: Lato
 
 #Extensions
 markdown_extensions:
