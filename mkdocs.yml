@@ -14,6 +14,8 @@ nav:
         - P2P Network: 'p2p_network.md'
         - RAID Debian: 'raid.md'
         - Systemd: 'systemd.md'
+    - Windows:
+        - Borg Backup: 'borg_windows.md'
     - Raspberry Pi:
         - enable ssh: 'raspberrypi_enable_ssh.md'
     - Latex:
