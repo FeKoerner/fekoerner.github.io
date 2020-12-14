@@ -11,7 +11,7 @@
 * create repository
 `debian$ borg init ----encryption=none /path/to/Repository/`   
 
-## For ToastNotifications
+## ToastNotifications
 * For giving the enduser a feedback, ToastNotifications are used
 
 ```Powershell
