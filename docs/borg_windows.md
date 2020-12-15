@@ -51,6 +51,9 @@ borg create -v --stats                                  \
 borg list $REPOSITORY
 
 /mnt/c/windows/system32/windowspowershell/v1.0/powershell.exe "New-BurntToastNotification -AppLogo \path\to\image.png -Text "Borg",'Backup was created'"
+
+# shutdown computer
+/mnt/c/Windows/system32/windowspowershell/v1.0/powershell.exe "shutdown /s /t 60 /c 'Backup has been created and Computer will shutdown in 60 seconds'"
 ```
 * test script before creating Task with Task Scheduler
 
@@ -63,7 +66,7 @@ borg list $REPOSITORY
 C:\Windows\System32\wsl.exe -d debian /path/to/borg.sh
 ```
 !!! warning
-    Path to wsl.exe could be different
+    Path to wsl.exe or powershell.exe could be different
 
 ## Resources
 * [Borg](https://borgbackup.readthedocs.io/en/stable/quickstart.html)
