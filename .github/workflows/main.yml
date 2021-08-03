@@ -13,11 +13,12 @@ jobs:
         with:
           python-version: 3.x
       
-      - name: pip
+      - name: pip install packages
         run: pip install \
           mkdocs-material \
           pymdown-extensions
       
-      - name: mkdocs
+      - name: mkdocs deploy site
         run: mkdocs gh-deploy --force
       
+      - name: create README
