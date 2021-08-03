@@ -18,3 +18,4 @@ jobs:
       - run: mkdocs gh-deploy --force
       - run: echo 'wiki.fk-sec.de' > CNAME
       - run: cat CNAME
+      - run: touch file_from_build
