@@ -23,5 +23,5 @@ jobs:
       
       - name: create README
         run: |
-        pwd
-        ls -al
+          pwd
+          ls -al
