@@ -16,6 +16,3 @@ jobs:
           mkdocs-material \
           pymdown-extensions
       - run: mkdocs gh-deploy --force
-      - run: mkdir static
-      - run: echo 'wiki.fk-sec.de' > static/CNAME
-      - run: cat static/CNAME
