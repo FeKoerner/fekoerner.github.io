@@ -22,3 +22,5 @@ jobs:
         run: mkdocs gh-deploy --force
       
       - name: create README
+        run: pwd
+        run: ls
