@@ -9,7 +9,7 @@ nav:
     - Cyber Security:
         - Hacking the art of exploitation: 'hacking.md'
         - Protostar: 'Protostar.md'
-        - OSCP: 'oscp.md'
+        - Tools: 'cyber_sec_tools.md'
     - Linux:
         - Useful Commands: 'bash.md'
         - P2P Network: 'p2p_network.md'
