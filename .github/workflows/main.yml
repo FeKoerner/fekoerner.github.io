@@ -2,7 +2,7 @@ name: Publish MkDocs Material
 on:
   push:
     branches: 
-      - test
+      - master
 
 jobs:
   deploy:
