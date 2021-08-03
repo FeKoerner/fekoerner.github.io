@@ -20,22 +20,3 @@ jobs:
       
       - name: mkdocs deploy site
         run: mkdocs gh-deploy --force
-      
-      - name: debug
-        run: |
-          pwd
-          ls -al
-      
-      - name: Commit files
-        run: |
-          git config --local user.email "test@github.com"
-          git config --local user.name "GitHub Action test"
-          git add README.md
-          git commit -m "README CI"
-      
-      - name: Push changes # push the output folder to your repo
-        uses: ad-m/github-push-action@master
-        with:
-          branch: gh-deploy #ignore if your branch is master
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
