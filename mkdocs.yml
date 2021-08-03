@@ -39,9 +39,9 @@ markdown_extensions:
     - admonition
     - toc:
         permalink: true
-    - codehilite:
-        guess_lang: true
+    - pymdownx.highlight:
         linenums: true
+    - pymdownx.superfences
     - pymdownx.emoji:
         emoji_index: !!python/name:pymdownx.emoji.twemoji
         emoji_generator: !!python/name:pymdownx.emoji.to_svg
@@ -49,4 +49,5 @@ markdown_extensions:
         custom_checkbox: true
         clickable_checkbox: false
     - pymdownx.tabbed
-
+extra_css:
+  - stylesheets/extra.css
