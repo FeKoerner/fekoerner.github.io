@@ -6,7 +6,7 @@ copyright: 'Copyright &copy; Felix Körner under CC BY-SA 3.0 DE'
 # Navigation
 nav:
     - Home: 'index.md'
-    - IT Security:
+    - Cyber Security:
         - Hacking the art of exploitation: 'hacking.md'
         - Protostar: 'Protostar.md'
         - OSCP: 'oscp.md'
